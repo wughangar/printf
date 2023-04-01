@@ -45,7 +45,7 @@ va_list list, char buffer[], int flags, int width, int precision, int size);
 
 /****************** FUNCTIONS ******************/
 
-/* Funtions to print chars and strings */
+/* Funtions that prints chars and strings */
 int print_char(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 int print_string(va_list types, char buffer[],
@@ -70,7 +70,7 @@ int print_hexa_upper(va_list types, char buffer[],
 int print_hexa(va_list types, char map_to[],
 char buffer[], int flags, char flag_ch, int width, int precision, int size);
 
-/* Function to print non printable characters */
+/* Function  printing non-printable characters */
 int print_non_printable(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
@@ -88,7 +88,7 @@ int get_size(const char *format, int *i);
 int print_reverse(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
-/*Function to print a string in rot 13*/
+/*Function for printing string in rot 13*/
 int print_rot13string(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
